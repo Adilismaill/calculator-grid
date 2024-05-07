@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./4412904_2359628.jpg);
+    background-size: cover;
+}
+body :hover{
+    /* background-color: rgb(222, 176, 176); */
+}
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 80px; 
+    width: 450px; 
+    /* border: 2px solid white; */
+    /* border-radius: 10px 10px; */
+    /* background-color: rgb(255, 0, 0); */
+    margin: 30px;
+    margin-left: 10px;
+    margin-top: 100px;
+}   
+/* .calculator :hover{
+    background-color: aquamarine;
+} */
+.display{   
+    grid-column: 1/5;
+    /* border: 2px solid rgb(0, 0, 0); */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 8px black;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    text-align: end;
+    margin-bottom: 0px;
+}
+.display :hover{
+    background-color: chartreuse;
+}
+.btns{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(134, 189, 127);
+    color: rgb(0, 0, 0);
+    border-radius: 15px 15px;
+    /* box-shadow: 10px 10px 10px black; */
+}
+.btnc{
+    grid-column: 1/3;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 15px 15px;
+    /* box-shadow: 10px 10px 10px black; */
+}
+.btnadd{
+    /* grid-row: 1/3; */
+    height: 160px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blue;
+    color: white;
+    border-radius: 15px 15px;
+    /* box-shadow: 10px 10px 10px black; */
+}
+.btnadd :hover{
+    background-color: aqua;
+}
+.btnequal{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 15px 15px;
+    /* box-shadow: 10px 10px 10px black; */
+}
